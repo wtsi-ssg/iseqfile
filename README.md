@@ -8,7 +8,7 @@ go install github.com/wtsi-ssg/iseqfile@latest
 
 ```
 
-To use as a drop-in replacement for imeta (but not it only supports one specific query!), you could add an alias to you shell login script, eg.
+To use as a drop-in replacement for imeta (but note it only supports one specific query!), you could add an alias to your shell login script, eg.
 
 ```
 alias imeta=$(go env GOPATH)/bin/iseqfile
